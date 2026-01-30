@@ -1,26 +1,35 @@
 # theFile_01 
-<!DOCTYPE html>
-<html>
-<head>
-<title>You Are Looking Inside</title>
-<style>
-body {
-  background:black;
-  color:white;
-  font-family: monospace;
-  text-align:center;
-  margin-top:20%;
-}
-.hidden { display:none; }
-</style>
-</head>
-<body>
-<p id="text">You are looking inside.</p>
-<script>
-setTimeout(() => {
-  document.getElementById("text").innerText =
-  "The world remembers you.";
-}, 5000);
-</script>
-</body>
-</html>
+# The World Inside You
+
+> This repository contains files related to an experimental Minecraft world.
+>  
+> If you are here by accident, you may leave.
+
+---
+
+## Overview
+
+This project documents a Minecraft save file that exhibits **unexpected behavior**.
+These behaviors include:
+- World inconsistencies
+- Repeating structures
+- Irregular file changes
+- Entity duplication
+- Unprompted messages
+
+The world appears stable, but long-term observation suggests otherwise.
+
+---
+
+## Repository Structure
+/world_inside_you/ 
+├── logs/    
+├── persona.dat     
+├── shadow.log    
+├── trickster.tmp  
+└── father.lock
+├── audio/    
+└── anima.wav 
+├── patches/   
+└── update_notes.txt 
+└── self.txt
